@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Form</title>
+    <style type="text/css">
+        body{
+            background-image: url(https://humanoidroboticstechnology.com/wp-content/uploads/2025/02/top-humanoid-robots-of-2026.jpg);
+        }
+        h1{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            color: rgb(9, 26, 59);
+        }
+        h3{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(9, 26, 59);
+        }
+        footer{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(255, 255, 255);
+        }
+        .box-main{
+            width: 700px;
+            height: 1100px;
+            box-shadow: 14px 13px 16px -2px rgba(0,0,0,0.75);
+            background: #a4e1ff;
+            border: 1px solid rgb(60, 85, 107);
+            border-radius: 15px;
+            padding-left: 15px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #496776;
+
+        }
+        footer{
+            text-align: center;
+        }
+        .submit{
+            text-align: center;
+        }
+        .ob img{
+            width: 150px;
+            float: center;
+            margin: auto;
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- HEADER SECTION -->
+    <div class="box-main">
+        <div class="ob">
+            <img src="/Q1/Assessment/SKILLS TEST/obmc.png" alt="">
+        </div>
+        <h1>OBMC Robotics Club Application</h1>
+        <br>
+        <form>
+
+            <!-- FULL NAME -->
+            <label for="full-name"><strong>Full name:</strong></label>
+            <input type="text" name="full-name" placeholder="Enter your full name">
+
+            <br>
+            <br>
+
+            <!-- EMAIL -->
+            <label for="email"><strong>Official OBMC Email:</strong></label>
+            <input type="email" name="full-name" placeholder="Enter a valid email">
+
+            <!-- GRADE LEVEL -->
+            <h4>Grade Level:</h4>
+            <select>
+                <option value="1">Grade 7</option>
+                <option value="2">Grade 8</option>
+                <option value="3">Grade 9</option>
+                <option value="4">Grade 10</option>
+            </select>
+
+            <br>
+            <br>
+
+            <!-- GENDER -->
+            <h4>Gender:</h4>
+            <input type="radio" name="gender">
+            <label for="gender">Male</label>
+
+            <input type="radio" name="gender">
+            <label for="gender">Female</label>
+
+            <br>
+            <br>
+
+            <!-- SKILLS -->
+             <h4>What are your skills?</h4>
+            <input type="checkbox" name="skills">
+            <label for="skills">Coding</label>
+
+            <input type="checkbox" name="skills">
+            <label for="skills">Design</label>
+
+            <input type="checkbox" name="skills">
+            <label for="skills">Electronics</label>
+
+            <br>
+            <br>
+
+             <h4>Tell us why you want to join:</h4>
+             <textarea placeholder="Type your answer here"></textarea>
+        </form>
+
+        <br>
+        <br>
+
+        <!-- ACTIVITIES  -->
+        <h3>Top Robotic Activities We Offer:</h3>
+        <ul>
+            <li>Line Following Robots</li>
+            <li>Obstacle Avoidance Programming</li>
+            <li>Light Following Robot</li>
+        </ul>
+
+        <br>
+
+        <div class="final">
+            <!-- REFERENCES -->
+            <h3>Helpful Links:</h3>
+            <ol>
+                <li><a href="https://www.automate.org/robotics">Robotics.org</a></li>
+                <li><a href="https://www.firstinspires.org/">FIRST Robotics</a></li>
+            </ol>
+
+            <br>
+            <br>
+
+            <div class="submit">
+                <input type="submit" value="Submit Application">
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br> 
+    <footer>©2026 Robotics Club Applications | Created by Vivienne Dimayacyac from 9-Emerald</footer>
+</body>
+</html>
